@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.press-button {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #0bd;
+    box-shadow: 0 4px 4px rgba(0, 126, 148, 0.4);
+    cursor: pointer;
+    transition: translate 0.2s ease, box-shadow 0.2s ease;
+}
+
+.press-button:hover {
+    translate: 0 2px;
+    box-shadow: 0 2px 4px rgba(0, 126, 148, 0.2);
+}
+
+.like-button-js {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #05b;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: translate 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.like-button-js:hover {
+    translate: 0 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.like-button-js.liked {
+    background: #037;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
